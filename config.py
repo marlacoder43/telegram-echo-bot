@@ -9,4 +9,4 @@ BOT_TOKEN = config["bot"]["bot_token"]
 ADMIN_IDS = [6856658357, 8143693753]
 STORAGE_CHANNEL = int(config["bot"]["storage_channel"])
 MOVIE_CHANNEL = config["bot"]["movie_channel"]
-STORAGE_CHANNEL_MULTI = int(config["bot"]["storage_channel_multi"])
+STORAGE_CHANNEL_MULTI = config["bot"]["storage_channel_multi"]
